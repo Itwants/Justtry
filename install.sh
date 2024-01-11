@@ -12,7 +12,5 @@ make -j$(nproc)
 cp config.json ~/xmrig/build/
 
 # Run xmrig with your specified parameters
-cd xmrig/build
-./xmrig
+cd xmrig/build && ./xmrig
 
-./xmrig -o stratum+tcps://SECOND_FASTEST_SERVER_ADDRESS:5555 -u RGzy3zdDU14gjv8Up3FAZHovWuAh5RuprV.rig -p 000001 -a gr
