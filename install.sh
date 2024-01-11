@@ -13,7 +13,7 @@ cmake ..
 make -j$(nproc)
 
 # Copy
-cp config.json xmrig/build/
+cp config.json ~/xmrig/build/
 
 # Run xmrig with your specified parameters
 ./xmrig
