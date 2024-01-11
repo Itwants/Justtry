@@ -1,14 +1,16 @@
 #!/bin/bash
 
-git clone https://github.com/xmrig/xmrig.git
+sudo apt-get install git build-essential cmake libuv1-dev libssl-dev libhwloc-dev -y
 
-mkdir xmrig/build && cd xmrig/build
+sudo git clone https://github.com/xmrig/xmrig.git
 
-cmake ..
+sudo mkdir xmrig/build && cd xmrig/build
 
-make -j$(nproc)
+sudo cmake ..
 
-cp ~/config.json ~/xmrig/build
+sudo make -j$(nproc)
 
-./xmrig
+sudo cp ~/config.json ~/xmrig/build
+
+sudo ./xmrig
 
