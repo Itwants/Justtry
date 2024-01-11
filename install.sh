@@ -8,10 +8,6 @@ mkdir xmrig/build && cd xmrig/build
 cmake ..
 make -j$(nproc)
 
-# Copy
-cd ../..
-cp config.json xmrig/build/
-
 # Run xmrig with your specified parameters
 cd xmrig/build
 ./xmrig
