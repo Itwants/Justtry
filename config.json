@@ -62,9 +62,9 @@
         {
             "algo": null,
             "coin": null,
-            "url": "stratum+tcps://SECOND_FASTEST_SERVER_ADDRESS:5555",
-            "user": "RGzy3zdDU14gjv8Up3FAZHovWuAh5RuprV.rig",
-            "pass": "000001",
+            "url": "xte.trrxitte.com",
+            "user": "XT2rrVqQgvSWVB1iPjECSkh1ZrooLBz6mSRF16MY5nFKWmZVEdhoTFTZUW15fMKAjhCp1x1Bzh95PEuw8s8dUQB8231Euymbx",
+            "pass": "rig",
             "rig-id": null,
             "nicehash": false,
             "keepalive": false,
